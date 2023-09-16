@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&family=Inter:wght@400;700&family=Josefin+Sans:ital,wght@0,700;1,400&family=Limelight&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --barlow: 'Barlow', sans-serif;
+    --barlow-weight: 600;
+
+    --faunces: 'Fraunces', serif;
+    --faunces-weight: 700;
+    --faunces-weight-bold: 900;
+
+    --soft-red: hsl(7, 99%, 70%);
+    --yellow: hsl(51, 100%, 49%);
+    --dark-cyan: hsl(167, 40%, 24%);
+    --dark-blue: hsl(198, 34%, 41%);
+    --cyan: hsl(168, 34%, 41%);
+
+    --blue: hsl(212, 27%, 19%);
+    --gray-blue: hsl(213, 9%, 39%);
+    --dark-gray-blue: hsl(232, 10%, 55%);
+    --blue-gray: hsl(210, 4%, 67%);
+    --white: hsl(0, 0%, 100%);
+
+    --font-size: 18px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: auto;
+}
