@@ -1,0 +1,27 @@
+{
+  "name": "sunnyside-agency-landing-page-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielOmehe/sunnyside-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielOmehe/sunnyside-landing-page/issues"
+  },
+  "homepage": "https://github.com/DanielOmehe/sunnyside-landing-page#readme",
+  "dependencies": {
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
