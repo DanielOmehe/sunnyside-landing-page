@@ -9,7 +9,7 @@ const SunnysideContentGrid =({title, subtitle, background})=>(
       <style jsx>{`
         .sunnyside-content-grid{
             width: 100%;
-            height: 100%;
+            height: 600px;
             background: url(${background});
             bacground-repeat: no-repeat;
             background-position: center;
@@ -46,30 +46,39 @@ const SunnysideContentGrid =({title, subtitle, background})=>(
             font-weight: var(--faunces-weight);
             position: relative;
             z-index: 1;
+            font-size: var(--font-size);
+            cursor: pointer;
         }
 
-        .sunnyside-content-grid:nth-child(1) .after{
+        .sunnyside-content-grid:nth-child(1) button::after{
             content: '';
             position: absolute;
-            width: 100px;
+            width: 150px;
             height: 10px;
-            background: var(--yellow);
+            background: var(--yellow-light);
             border-radius: 50px;
-            top: 65%;
-            left: 21%;
+            top: 62%;
+            left: 0%;
             z-index: 0;
         }
 
-        .sunnyside-content-grid:nth-child(4) .after{
+        .sunnyside-content-grid:nth-child(4) button::after{
             content: '';
             position: absolute;
-            width: 100px;
+            width: 150px;
             height: 10px;
-            background: var(--yellow);
+            background: var(--soft-red-light);
             border-radius: 50px;
-            top: 65%;
-            left: 21%;
+            top: 62%;
+            left: 0%;
             z-index: 0;
+        }
+
+        .sunnyside-content-grid:nth-child(1) button:hover::after{
+            background: var(--yellow);
+        }
+        .sunnyside-content-grid:nth-child(4) button:hover::after{
+            background: var(--soft-red);
         }
 
         .sunnyside-content-grid:nth-child(2) button{
@@ -100,12 +109,30 @@ const SunnysideContentGrid =({title, subtitle, background})=>(
             font-family: var(--faunces);
             font-weight: var(--faunces-weight-bold);
             color: var(--dark-cyan);
+            text-align: center;
+            margin: 13rem 0 0 5rem;
+        }
+
+        .sunnyside-content-grid:nth-child(5) p{
+            font-family: var(--barlow);
+            color: var(--dark-cyan);
+            text-align: center;
+            margin: 3rem 0 0 2rem;
         }
 
         .sunnyside-content-grid:nth-child(6) h2{
             font-family: var(--faunces);
             font-weight: var(--faunces-weight-bold);
             color: var(--dark-cyan);
+            text-align: center;
+            margin: 13rem 0 0 5rem;
+        }
+
+        .sunnyside-content-grid:nth-child(6) p{
+            font-family: var(--barlow);
+            color: var(--dark-cyan);
+            text-align: center;
+            margin: 3rem 2rem 0;
         }
 
       `}</style>
