@@ -10,10 +10,12 @@
     --faunces-weight-bold: 900;
 
     --soft-red: hsl(7, 99%, 70%);
+    --soft-red-light: hsla(6, 69%, 76%, 0.658);
     --yellow: hsl(51, 100%, 49%);
-    --dark-cyan: hsl(167, 40%, 24%);
+    --yellow-light: hsla(51, 85%, 63%, 0.486);
+    --dark-cyan: hsl(168, 65%, 15%);
     --dark-blue: hsl(198, 34%, 41%);
-    --cyan: hsl(168, 34%, 41%);
+    --cyan: hsl(168, 39%, 45%);
 
     --blue: hsl(212, 27%, 19%);
     --gray-blue: hsl(213, 9%, 39%);

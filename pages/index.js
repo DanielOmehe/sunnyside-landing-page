@@ -1,5 +1,6 @@
 import SunnySideHeader from "../components/header";
 import SunnysideContent from "../components/content";
+import SunnysideFooter from '../components/footer'
 import { useEffect } from "react";
 
 const SunnySide = ()=>(
@@ -9,6 +10,7 @@ const SunnySide = ()=>(
     <>
         <SunnySideHeader />
         <SunnysideContent />
+        <SunnysideFooter />
     </>
 )
 
