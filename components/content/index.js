@@ -53,8 +53,15 @@ const SunnysideContent = () => (
 
 			.sunnyside-content-grid-container {
 				display: grid;
-				grid-template-columns: repeat(auto-fit, minmax(612px, 1fr));
+				grid-template-columns: 1fr 1fr;
 			}
+
+            @media only screen and (max-width: 400px){
+                .sunnyside-content-grid-container{
+                    grid-template-columns: 100vw;
+                    grid-auto-rows: 350px;
+                }
+            }
 		`}</style>
 	</>
 );

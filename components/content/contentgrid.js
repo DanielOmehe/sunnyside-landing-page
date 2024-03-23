@@ -135,6 +135,47 @@ const SunnysideContentGrid =({title, subtitle, background})=>(
             margin: 3rem 2rem 0;
         }
 
+        @media only screen and (max-width: 400px){
+            .sunnyside-content-grid{
+                width: 100%;
+                height: 350px;
+                padding: 0;
+                text-align: center;
+                background-position: center;
+                background-size: cover;
+                padding: 1.5rem 2rem;
+            }
+
+            .sunnyside-content-grid p{
+                padding: 0;
+            }
+
+            .sunnyside-content-grid:nth-child(2){
+                grid-row: 1 / 2;
+            }
+
+            .sunnyside-content-grid:nth-child(5), .sunnyside-content-grid:nth-child(6){
+                height: 100%;
+                background-position: center;
+                background-size: cover;
+                grid-row: span 2;
+                text-align: center;
+            }
+
+            .sunnyside-content-grid:nth-child(5) h2, .sunnyside-content-grid:nth-child(6) h2{
+                padding: 0;
+                margin: 24rem 0 0 0;
+            }
+
+            .sunnyside-content-grid:nth-child(5) p, .sunnyside-content-grid:nth-child(6) p{
+                padding: 0;
+                margin: 2rem 0 0 0;
+            }
+
+            .sunnyside-content-grid h2{
+                padding: 0;
+            }
+        }
       `}</style>
     </>
 )

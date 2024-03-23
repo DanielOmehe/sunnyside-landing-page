@@ -10,6 +10,16 @@ const SunnysideGalleryItem = ({ url }) => (
 				background-size: cover;
 				background-position: center;
 			}
+
+            @media only screen and (max-width: 400px){
+                .sunnyside-gallery-item{
+                    height: 100%;
+                    width: 100%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+            }
 		`}</style>
 	</>
 );

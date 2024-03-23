@@ -32,6 +32,17 @@ const SunnysideTestimonials = () => (
                 grid-template-rows: 400px;
                 margin: 5rem auto;
             }
+
+            @media only screen and (max-width: 400px){
+                .sunnyside-testimonials{
+                    padding: 4rem 0;
+                }
+
+                .sunnyside-testimonials-container{
+                    width: 100%;
+                    margin: 2rem 0;
+                }
+            }
         `}</style>
     </>
 );
