@@ -16,6 +16,10 @@ const MobileMenu = ({ show }) => {
 				<button className="mobile-contact">contact</button>
 			</div>
 			<style jsx>{`
+
+            .mobile-menu{
+                display: none;
+            }
 				@media only screen and (max-width: 400px) {
 					.mobile-menu {
 						width: 90%;
